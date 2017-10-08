@@ -105,7 +105,6 @@ module.exports = (paths, config, publicPath) => {
   );
   delete DefinePlugin.definitions['process.env'];
 
-  /*
   webpackConfig.plugins.push(
     new webpack.BannerPlugin({
       banner: 'require(\'source-map-support\').install();',
@@ -113,7 +112,7 @@ module.exports = (paths, config, publicPath) => {
       entryOnly: false,
     })
   );
-*/
+
   if (process.env.NODE_ENV === 'development') {
     // inject other environment variable
     DefinePlugin.definitions['process.env.HOST'] = `"${process.env.HOST}"`;

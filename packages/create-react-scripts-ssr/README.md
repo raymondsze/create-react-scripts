@@ -84,7 +84,9 @@ const HOST = process.env.HOST || '0.0.0.0';
 const PORT = parseInt(process.env.PORT, 10) || 5000;
 const PROTOCOL = process.env.PROTOCOL || 'http';
 
-// Assets path from client-side build
+// Assets manifest path from client-side dll build (if create-react-scripts-dll is using)
+const DLL_ASSETS_PATH = path.join(process.cwd(), 'build/dll-assets.json');
+// Assets manifest path from client-side build
 const ASSETS_PATH = path.join(process.cwd(), 'build/assets.json');
 
 // Wait until client-side bundling finished so that assets.json is produced
@@ -92,7 +94,12 @@ console.log('Waiting client-side bundling...');
 while (!fs.existsSync(ASSETS_PATH));
 
 // Read the assets
-const assets = JSON.parse(fs.readFileSync(ASSETS_PATH));
+const assets = {
+  // make sure dll assets before the assets of client-side build
+  // ensure browser require the vendor module first
+  ...JSON.parse(fs.readFileSync(DLL_ASSETS_PATH)),
+  ...JSON.parse(fs.readFileSync(ASSETS_PATH)),
+};
 
 const app = express();
 // in production, the serving files are under build/client folder

@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const AssetsPlugin = require('assets-webpack-plugin')
+const AssetsPlugin = require('assets-webpack-plugin');
 
 module.exports = () => ({
   paths(paths) {
@@ -15,6 +15,7 @@ module.exports = () => ({
     paths.appBuild = path.join(paths.appBuild, 'client');
     paths.appHtml = path.join(fs.realpathSync(process.cwd()), 'public/index-static.html');
     paths.appAssets = path.join(paths.appBuild, '..');
+    paths.appDllAssets = path.join(paths.appBuild, '..');
     return paths;
   },
   webpack(config, NODE_ENV) {
@@ -41,6 +42,27 @@ module.exports = () => ({
       htmlWebpackPlugin.options.filename = 'index-static.html';
     }
 
+    const autoDllPlugin = config.plugins.find(
+      plugin => plugin.constructor.name === 'AutoDLLPlugin'
+    );
+    if (autoDllPlugin) {
+      const pluginOptions = autoDllPlugin.originalSettings;
+      const dllSubPlugins = pluginOptions.plugins || [];
+      pluginOptions.plugins = dllSubPlugins.concat([
+        new AssetsPlugin({
+          filename: 'dll-assets.json',
+          path: this.paths.appDllAssets,
+          fullPath: true,
+          processOutput: (assets) => {
+            Object.values(assets).forEach(mod => {
+              if (mod.js) mod.js = config.output.publicPath + path.join(pluginOptions.path || '', mod.js);
+            });
+            return JSON.stringify(assets);
+          }
+        })
+      ]);
+    }
+
     config.plugins.push(
       new AssetsPlugin({
         filename: 'assets.json',
@@ -48,6 +70,7 @@ module.exports = () => ({
         fullPath: true,
       })
     );
+
     return config;
   },
   scripts: {

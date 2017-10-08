@@ -1,3 +1,5 @@
+'use strict';
+
 const { compose } = require('create-react-scripts');
 
 module.exports = compose(

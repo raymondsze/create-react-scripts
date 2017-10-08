@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 const { getCssLoader, getFileLoader } = require('create-react-scripts-utils');
 

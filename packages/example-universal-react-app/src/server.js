@@ -14,11 +14,16 @@ const PORT = process.env.PORT || '5000';
 const PROTOCOL = process.env.PROTOCOL || 'http';
 
 const ASSETS_PATH = path.join(process.cwd(), 'build/assets.json');
+const DLL_ASSETS_PATH = path.join(process.cwd(), 'build/dll-assets.json');
 
 console.log('Waiting client-side bundling...');
 while (!fs.existsSync(ASSETS_PATH));
 
-const assets = JSON.parse(fs.readFileSync(ASSETS_PATH));
+const assets = {
+  ...JSON.parse(fs.readFileSync(DLL_ASSETS_PATH)),
+  ...JSON.parse(fs.readFileSync(ASSETS_PATH)),
+};
+
 const app = express();
 
 if (process.env.NODE_ENV === 'production') {
