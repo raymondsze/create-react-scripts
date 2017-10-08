@@ -21,12 +21,12 @@
     "source-map-support": "0.5.0"
   },
   "scripts": {
-    "start": "../create-react-scripts/bin/create-react-scripts.js start",
+    "start": "create-react-scripts start",
     "start:prod": "node ./build/server",
-    "start:server": "../create-react-scripts/bin/create-react-scripts.js start:server",
-    "build": "../create-react-scripts/bin/create-react-scripts.js build",
-    "build:server": "../create-react-scripts/bin/create-react-scripts.js build:server",
-    "test": "../create-react-scripts/bin/create-react-scripts.js test --env=jsdom"
+    "start:server": "create-react-scripts start:server",
+    "build": "create-react-scripts build",
+    "build:server": "create-react-scripts build:server",
+    "test": "create-react-scripts test --env=jsdom"
   },
   "vendor": [
     "react",

@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "bin": {
-    "creact-react-scripts": "./bin/create-react-scripts.js"
+    "create-react-scripts": "./bin/create-react-scripts.js"
   },
   "dependencies": {
     "react-dev-utils": "^4.0.1",
