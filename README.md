@@ -13,7 +13,7 @@ How about experienced user? Is create-react-app still good? Yes and No. All the 
 Another way to extend the configuration is using a Fork of `create-react-app`. By doing this way, its just better, it would be *easier* to keep track of the updates from `create-react-app`. But... you still need to maintain the fork repository yourself. Is it worth to maintain the whole repository if you only need some modification on the configuration like *sass* and *less* supports?
 
 ## 3. React App Rewired
-[react-app-rewired]((https://github.com/timarney/react-app-rewired) is a moudle that you can easily extends the webpack and babel configuration by using `config.override.js`. But the `config.override.js` must be along with your project, and it is hard to share your configuration to your teammates as you cannot publish the modification into another version of `react-script`.
+[react-app-rewired](https://github.com/timarney/react-app-rewired) is a moudle that you can easily extends the webpack and babel configuration by using `config.override.js`. But the `config.override.js` must be along with your project, and it is hard to share your configuration to your teammates as you cannot publish the modification into another version of `react-script`.
 
 ## 4. Roll Your Own Boilerplate
 If you choose this way, then you don't even need create-react-app. But as a experienced user, setup webpack and babel configuration is a time consuming tasks. create-react-app is an official tool, I believe the choice she taken is good reference. Usually we only want to extend the configuration instead of completely rewrite.
