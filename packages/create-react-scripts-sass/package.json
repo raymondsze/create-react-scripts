@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-sass",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Enable sass-loader to create-react-scripts",
@@ -9,7 +9,7 @@
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
   "dependencies": {
-    "create-react-scripts-utils": "^0.1.1",
+    "create-react-scripts-utils": "^0.1.2",
     "node-sass": "4.5.3",
     "sass-loader": "6.0.6"
   }
