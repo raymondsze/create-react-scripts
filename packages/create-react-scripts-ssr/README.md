@@ -18,26 +18,27 @@ The server will auto reload if code changes.
 By default, **webpack-dev-server is running on port: 3001** while the **server is running on 3000**.
 The following environment variables are injected to `server side bundling`
 
-`HOST`: The host that the server should be running on.
-`PORT`: The port number that the server should be running on.
-`PROTOCOL`: The protocol that the server should be running on.
-`PUBLIC_URL`: The absolute url that the webpack-dev-server is running.
+`HOST`: The host that the server should be running on.  
+`PORT`: The port number that the server should be running on.  
+`PROTOCOL`: The protocol that the server should be running on.  
+`PUBLIC_URL`: The absolute url that the webpack-dev-server is running.  
 
 **All client side log would be supressed in the console.**
-The client build is located in `build/client`
-The server build is located in `build/server`
-An assets json manifest is located in `build/assets.json`, which is useful for server-side-rendering.
-This script will start the `webpack-dev-server` and the `server.js`
+The client build is located in `build/client`  
+The server build is located in `build/server`  
+An assets json manifest is located in `build/assets.json`, which is useful for server-side-rendering.  
+If autodll plugin is detected, an assets json manifest is located in `build/dll-assets.json`, which is useful for server-side-rendering.  
+This script will start the `webpack-dev-server` and the `server.js`  
 
 ### build:server
-trigger both `client side` and `server side` webpack tasks build.
-An assets json manifest is located in `build/assets.json`, which is useful for server-side-rendering.
-You can start the server by `node build/server` after build.
+trigger both `client side` and `server side` webpack tasks build.  
+An assets json manifest is located in `build/assets.json`, which is useful for server-side-rendering.  
+You can start the server by `node build/server` after build.  
 
 # How it works?
 ----------------
-Webpack bundle both different environment, the client side and the server side.
-Make use of [assets-webpack-plugin](https://github.com/kossnocorp/assets-webpack-plugin) to produce assets mapping so that server side can know the filename produced in client side build.
+Webpack bundle both different environment, the client side and the server side.  
+Make use of [assets-webpack-plugin](https://github.com/kossnocorp/assets-webpack-plugin) to produce assets mapping so that server side can know the filename produced in client side build.  
 
 # Usage
 ---------------
@@ -164,4 +165,4 @@ This step is to make the source mapping correct in the stack trace if error is t
 `npm run build:server` or `yarn build:server`
 
 # Working Example
-[raymondsze/example-universal-react-app](https://github.com/raymondsze/create-react-scripts/packages/example-universal-react-app)
+[raymondsze/example-universal-react-app](https://github.com/raymondsze/create-react-scripts/tree/master/packages/example-universal-react-app)
