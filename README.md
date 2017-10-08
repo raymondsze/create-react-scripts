@@ -310,7 +310,7 @@ module.exports = compose(crsConfig1, crsConfig2, ..., crsConfigN);
 You can use the rewire function to obtain the rewired result.
 This function is useful for creating custom script.
 Example:
-**react-scripts-ssr/scripts/start-server.js** [[source](https://github.com/raymondsze/create-react-scripts/blob/master/packages/create-react-scripts-ssr/scripts/start-server_js)]
+**react-scripts-ssr/scripts/start-server.js** [[source](https://github.com/raymondsze/create-react-scripts/blob/master/packages/create-react-scripts-ssr/scripts/start-server.js)]
 **react-scripts-ssr/scripts/build-server.js** [[source](https://github.com/raymondsze/create-react-scripts/blob/master/packages/create-react-scripts-ssr/scripts/build-server.js)]
 ```js
 const { compose } = require('create-react-scripts')
