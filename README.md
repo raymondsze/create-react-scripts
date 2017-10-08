@@ -251,42 +251,6 @@ Rewire Target
 + [devServer](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/config/webpackDevServer.config.js): The return result of module.exports of **react-scripts/config/webpackDevServer.config.js**
 + [jest](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/scripts/utils/createJestConfig.js): The return result of module.exports of **react-scripts/scripts/utils/createJestConfig.js**
 
-Parameters:
-```js
-module.exports = {
-  env: (env, NODE_ENV, script) => {
-    // env: rewire target
-    // NODE_ENV: process.env.NODE_ENV
-    // script: current running script
-    //         possible values are (start | build | server | test)
-  },
-  paths: (paths, NODE_ENV, script) => {
-    // paths: rewire target
-    // NODE_ENV: process.env.NODE_ENV
-    // script: current running script
-    //         possible values are (start | build | server | test)
-  },
-  webpack: (webpackConfig, NODE_ENV, script) => {
-    // webpackConfig: rewire target
-    // NODE_ENV: process.env.NODE_ENV
-    // script: current running script
-    //         possible values are (start | build | server | test)
-  },
-  devServer: (webpackDevServerConfig, NODE_ENV, script) => {
-    // webpackDevServerConfig: rewire target
-    // NODE_ENV: process.env.NODE_ENV
-    // script: current running script
-    //         possible values are (start | build | server | test)
-  },
-  jest: (jestConfig, NODE_ENV, script) => {
-    // jestConfig: rewire target
-    // NODE_ENV: process.env.NODE_ENV
-    // script: current running script
-    //         possible values are (start | build | server | test)
-  },
-};
-```
-
 ### compose
 You can compose multiple crs-config together to a single crs-config.
 ```js
