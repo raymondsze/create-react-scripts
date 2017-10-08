@@ -46,6 +46,10 @@ All the above are pre-required and the require.cache got replaced according to y
 
 To understand more, you can see the rewire [source code](https://github.com/raymondsze/create-react-scripts/blob/master/packages/create-react-scripts/rewire.js) here.
 
+# Installation
+-----------------
+`npm i -S react-scripts create-react-scripts` or `yarn add react-scripts create-react-scripts`  
+
 # How to use?
 -----------------
 #### Option 1: Create your own react-scripts
