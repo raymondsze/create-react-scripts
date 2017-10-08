@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-web",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "Sze Ka Wai Raymond",
   "bin": "./bin/react-scripts.js",
   "main": "crs.config.js",
@@ -18,7 +18,7 @@
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
   "dependencies": {
-    "create-react-scripts": "^0.1.5",
+    "create-react-scripts": "^0.1.6",
     "create-react-scripts-babelrc": "^0.1.4",
     "create-react-scripts-dll": "^0.1.5",
     "create-react-scripts-eslintrc": "^0.1.4",

@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Sze Ka Wai Raymond",
   "description": "Easily extend the react-scripts to your own version of react-scripts",
   "license": "MIT",
