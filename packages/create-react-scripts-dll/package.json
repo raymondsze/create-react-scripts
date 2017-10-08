@@ -1,0 +1,16 @@
+{
+  "name": "create-react-scripts-dll",
+  "version": "0.0.1",
+  "author": "Sze Ka Wai Raymond",
+  "main": "index.js",
+  "description": "Add auto-dll-webpack-plugin to create-react-scripts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondsze/create-react-scripts/issues"
+  },
+  "dependencies": {
+    "autodll-webpack-plugin": "0.2.1",
+    "webpack": "3.6.0",
+    "webpack-dll-bundles-plugin": "^1.0.0-beta.5"
+  }
+}

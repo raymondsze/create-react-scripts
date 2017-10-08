@@ -1,0 +1,11 @@
+{
+  "name": "create-react-scripts-utils",
+  "version": "0.0.1",
+  "author": "Sze Ka Wai Raymond",
+  "main": "index.js",
+  "description": "Utilities used to access webpack loaders in create-react-app",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondsze/create-react-scripts/issues"
+  }
+}

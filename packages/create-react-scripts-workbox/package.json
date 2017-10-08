@@ -1,0 +1,16 @@
+{
+  "name": "create-react-scripts-workbox",
+  "version": "0.0.1",
+  "author": "Sze Ka Wai Raymond",
+  "main": "index.js",
+  "description": "Enable workbox-webpack-plugin to create-react-scripts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondsze/create-react-scripts/issues"
+  },
+  "dependencies": {
+    "create-react-scripts-utils": "^0.0.1",
+    "workbox-sw": "2.1.0",
+    "workbox-webpack-plugin": "2.1.0"
+  }
+}

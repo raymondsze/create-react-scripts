@@ -1,0 +1,17 @@
+{
+  "name": "create-react-scripts-graphql",
+  "version": "0.0.1",
+  "author": "Sze Ka Wai Raymond",
+  "main": "index.js",
+  "description": "Enable graphql-loader to create-react-scripts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondsze/create-react-scripts/issues"
+  },
+  "dependencies": {
+    "create-react-scripts-utils": "^0.0.1",
+    "graphql": "0.10.5",
+    "graphql-tag": "2.4.2",
+    "jest-transform-graphql": "2.1.0"
+  }
+}

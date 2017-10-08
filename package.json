@@ -1,0 +1,11 @@
+{
+  "name": "create-react-scripts",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Easily extend the react-scripts to your own version of react-scripts",
+  "author": "Sze Ka Wai Raymond",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.5"
+  }
+}

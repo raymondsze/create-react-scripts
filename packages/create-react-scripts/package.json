@@ -1,0 +1,18 @@
+{
+  "name": "create-react-scripts",
+  "version": "0.0.1",
+  "author": "Sze Ka Wai Raymond",
+  "description": "Easily extend the react-scripts to your own version of react-scripts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymondsze/create-react-scripts/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "creact-react-scripts": "./bin/create-react-scripts.js"
+  },
+  "dependencies": {
+    "react-dev-utils": "^4.0.1",
+    "react-scripts": "^1.0.14"
+  }
+}
