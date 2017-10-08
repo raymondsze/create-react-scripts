@@ -10,6 +10,7 @@
   },
   "files": [
     "bin",
+    "scripts",
     "index.js",
     "rewire.js",
     "compose.js"
