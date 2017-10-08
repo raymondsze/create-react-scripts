@@ -1,6 +1,6 @@
 {
   "name": "example-universal-react-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "author": "Sze Ka Wai Raymond",
   "description": "Universal react app with create-react-scripts",
@@ -15,10 +15,10 @@
     "serve-static": "^1.13.1"
   },
   "devDependencies": {
-    "react-scripts-web": "^0.0.1",
-    "source-map-support": "0.5.0",
-    "create-react-scripts": "^0.0.1",
-    "create-react-scripts-ssr": "^0.0.1"
+    "create-react-scripts": "^0.1.0",
+    "create-react-scripts-ssr": "^0.1.0",
+    "react-scripts-web": "^0.1.0",
+    "source-map-support": "0.5.0"
   },
   "scripts": {
     "start": "../create-react-scripts/bin/create-react-scripts.js start",
