@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import express from 'express';
 import url from 'url';
-import fetch from 'node-fetch';
 import serveStatic from 'serve-static';
 import path from 'path';
 import fs from 'fs';
