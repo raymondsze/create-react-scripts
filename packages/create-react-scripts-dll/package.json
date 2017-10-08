@@ -5,6 +5,13 @@
   "main": "index.js",
   "description": "Add auto-dll-webpack-plugin to create-react-scripts",
   "license": "MIT",
+  "repository": "raymondsze/create-react-scripts",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ],
   "bugs": {
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },

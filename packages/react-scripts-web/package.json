@@ -6,6 +6,14 @@
   "main": "crs.config.js",
   "description": "Customized react-scripts for web features using create-react-scripts",
   "license": "MIT",
+  "repository": "raymondsze/create-react-scripts",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "bin",
+    "crs.config.js"
+  ],
   "bugs": {
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },

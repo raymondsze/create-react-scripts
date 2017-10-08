@@ -4,6 +4,16 @@
   "author": "Sze Ka Wai Raymond",
   "description": "Easily extend the react-scripts to your own version of react-scripts",
   "license": "MIT",
+  "repository": "raymondsze/create-react-scripts",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "rewire.js",
+    "compose.js"
+  ],
   "bugs": {
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
@@ -12,7 +22,9 @@
     "create-react-scripts": "./bin/create-react-scripts.js"
   },
   "dependencies": {
-    "react-dev-utils": "^4.0.1",
+    "react-dev-utils": "^4.0.1"
+  },
+  "peerDependencies": {
     "react-scripts": "^1.0.14"
   }
 }

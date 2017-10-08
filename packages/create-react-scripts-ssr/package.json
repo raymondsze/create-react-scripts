@@ -5,6 +5,16 @@
   "main": "index.js",
   "description": "Make universal react app easy using create-react-scripts",
   "license": "MIT",
+  "repository": "raymondsze/create-react-scripts",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "config",
+    "scripts",
+    "utils",
+    "index.js"
+  ],
   "bugs": {
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },

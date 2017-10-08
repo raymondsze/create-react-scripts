@@ -5,6 +5,19 @@
   "main": "index.js",
   "description": "Utilities used to access webpack loaders in create-react-app",
   "license": "MIT",
+  "repository": "raymondsze/create-react-scripts",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "getBabelLoader.js",
+    "getCssLoader.js",
+    "getEslintLoader.js",
+    "getFileLoader.js",
+    "getUrlLoader.js",
+    "getLoader.js",
+    "index.js"
+  ],
   "bugs": {
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   }
