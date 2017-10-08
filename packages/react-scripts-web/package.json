@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "author": "Sze Ka Wai Raymond",
   "bin": "./bin/react-scripts.js",
@@ -11,10 +11,10 @@
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
   "dependencies": {
-    "create-react-scripts": "^0.1.0",
-    "create-react-scripts-babelrc": "^0.1.0",
-    "create-react-scripts-dll": "^0.1.0",
-    "create-react-scripts-eslintrc": "^0.1.0",
-    "create-react-scripts-workbox": "^0.1.0"
+    "create-react-scripts": "^0.1.1",
+    "create-react-scripts-babelrc": "^0.1.1",
+    "create-react-scripts-dll": "^0.1.1",
+    "create-react-scripts-eslintrc": "^0.1.1",
+    "create-react-scripts-workbox": "^0.1.1"
   }
 }

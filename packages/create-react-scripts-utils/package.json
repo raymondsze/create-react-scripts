@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Utilities used to access webpack loaders in create-react-app",

@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-eslintrc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Mark useEslintrc option to true to create-react-scripts",
@@ -9,6 +9,6 @@
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
   "dependencies": {
-    "create-react-scripts-utils": "^0.1.0"
+    "create-react-scripts-utils": "^0.1.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-babelrc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sze Ka Wai Raymond",
   "description": "Mark babelrc option to true to create-react-scripts",
   "license": "MIT",
@@ -9,6 +9,6 @@
   },
   "main": "index.js",
   "dependencies": {
-    "create-react-scripts-utils": "^0.1.0"
+    "create-react-scripts-utils": "^0.1.1"
   }
 }

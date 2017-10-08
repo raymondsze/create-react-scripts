@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-dll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Add auto-dll-webpack-plugin to create-react-scripts",
