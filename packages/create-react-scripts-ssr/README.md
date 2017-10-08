@@ -162,3 +162,6 @@ This step is to make the source mapping correct in the stack trace if error is t
 
 ##### Start Server in Production Mode
 `npm run build:server` or `yarn build:server`
+
+# Working Example
+[raymondsze/example-universal-react-app](https://github.com/raymondsze/create-react-scripts/packages/example-universal-react-app)
