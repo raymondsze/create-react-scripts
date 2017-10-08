@@ -48,7 +48,7 @@ To understand more, you can see the rewire [source code](https://github.com/raym
 
 # Installation
 -----------------
-`npm i -S react-scripts create-react-scripts` or `yarn add react-scripts create-react-scripts`  
+`npm i -D react-scripts create-react-scripts` or `yarn add --dev react-scripts create-react-scripts`  
 
 # How to use?
 -----------------
