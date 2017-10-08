@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-less",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Enable less-loader to create-react-scripts",
@@ -9,7 +9,7 @@
     "url": "https://github.com/raymondsze/create-react-scripts/issues"
   },
   "dependencies": {
-    "create-react-scripts-utils": "^0.1.2",
+    "create-react-scripts-utils": "^0.1.3",
     "less": "2.7.2",
     "less-loader": "4.0.5"
   }

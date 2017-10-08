@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-ssr",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Make universal react app easy using create-react-scripts",
@@ -12,8 +12,8 @@
     "assets-webpack-plugin": "3.5.1",
     "chalk": "2.1.0",
     "clone": "2.1.1",
-    "create-react-scripts": "^0.1.2",
-    "create-react-scripts-utils": "^0.1.2",
+    "create-react-scripts": "^0.1.3",
+    "create-react-scripts-utils": "^0.1.3",
     "fs-extra": "4.0.2",
     "ignore-loader": "0.1.2",
     "nodemon": "1.12.1",
