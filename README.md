@@ -322,12 +322,6 @@ const crsConfigN = require('./crsConfigN');
 module.exports = compose(crsConfig1, crsConfig2, ..., crsConfigN);
 ```
 
-### runScript(scriptName, needRewire)
-##### return: undefined
-You can use the runScript function to run script provided.
-For example, do something that rung the start script.
-Example:
-**react-scripts-ssr/scripts/build-server.js** [[source](https://github.com/raymondsze/create-react-scripts/blob/master/packages/create-react-scripts-ssr/scripts/build-server.js)]
 -----------------
 # Why This Project Exists
 -----------------
