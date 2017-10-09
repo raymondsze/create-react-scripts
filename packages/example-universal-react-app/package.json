@@ -24,13 +24,7 @@
   "scripts": {
     "start": "create-react-scripts start",
     "start:prod": "node ./build/server",
-    "start:server": "create-react-scripts start:server",
-    "build": "create-react-scripts build",
-    "build:server": "create-react-scripts build:server",
+    "build": "create-react-scripts build:server",
     "test": "create-react-scripts test --env=jsdom"
-  },
-  "vendor": [
-    "react",
-    "react-dom"
-  ]
+  }
 }
