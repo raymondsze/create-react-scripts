@@ -1,6 +1,6 @@
 {
   "name": "create-react-scripts-ssr",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "Sze Ka Wai Raymond",
   "main": "index.js",
   "description": "Make universal react app easy using create-react-scripts",
