@@ -4,6 +4,18 @@ const fs = require('fs');
 const path = require('path');
 const AssetsPlugin = require('assets-webpack-plugin');
 
+
+function ensureSlash(path, needsSlash) {
+  const hasSlash = path.endsWith('/');
+  if (hasSlash && !needsSlash) {
+    return path.substr(path, path.length - 1);
+  } else if (!hasSlash && needsSlash) {
+    return `${path}/`;
+  } else {
+    return path;
+  }
+}
+
 module.exports = () => ({
   paths(paths) {
     // we need to make it compatiable to create-react-scripts-typescript
@@ -55,7 +67,7 @@ module.exports = () => ({
           fullPath: true,
           processOutput: (assets) => {
             Object.values(assets).forEach(mod => {
-              if (mod.js) mod.js = config.output.publicPath + path.join(pluginOptions.path || '', mod.js);
+              if (mod.js) mod.js = ensureSlash(config.output.publicPath, true) + path.join(pluginOptions.path || '', mod.js);
             });
             return JSON.stringify(assets);
           }
