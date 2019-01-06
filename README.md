@@ -1,3 +1,17 @@
+# Deprecated
+I am sorry that this project is not in active development and no plan to support react-scripts 2.0.
+
+The main purpose I created this project is to easily extend the cra configuration to support the server-side-rendering.
+Recently, I have moved all my private projects to nextJs that no longer depend on react-scripts anymore.
+
+I would welcome if anyone who are interested to take over this project.
+
+To support react-scripts 2.0, there are some promising libraries there.
+
+https://github.com/rescripts/rescripts
+
+https://github.com/sharegate/craco
+
 -----------------
 # Create React Scripts
 -----------------
