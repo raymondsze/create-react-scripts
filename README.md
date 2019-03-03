@@ -155,7 +155,7 @@ Choose either one
 2. make use of [`lerna`](https://github.com/lerna) to connect pacakges.
 
 ##### Change package.json of your project
-Modify pacakge.json to use `custom-react-scripts` instead of `react-scripts`
+Modify package.json to use `custom-react-scripts` instead of `react-scripts`
 ```diff
 // package.json of your react app
 {
